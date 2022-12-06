@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CUSTOMER CENTER</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/customer.css" />
+    </head>
+    </head>
+    <body>
+        <header>header 시작
+            <div id="skip"><a href="#">본문바로가기</a></div>
+            <h1>
+                <a href="#"><img src="" alt="리뷰로고"/></a>
+            </h1>
+            <ul id="util">
+                <a href="#"><li>회원가입</li></a>
+                <a href="#"><li>문의사항</li></a>
+                <a href="#"><li>LOGIN</li></a>
+            </ul>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>검색영역</legend>
+                    <label for="sbox" class="skip">검색</label>
+                    <input type="search" id="sbox" class="tbox" placeholder="검색어를 입력하세요."/>
+                    <input type="image" class="sbtn" src="./img/search_icon.png" alt="검색"/>
+                </fieldset>
+            </form>
+            <div id="navi">
+                <nav>
+                    <ul>
+                        <li class="v"><a href="#">테마</a></li>
+                        <li class="b"><a href="#">랭킹</a></li>
+                        <li class="c"><a href="#">소개</a></li>
+                        <li class="d"> <a href="#">마이페이지</a></li>
+                        <li class="e"><a href="#">고객센터</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="contain">
+            <section id="faq">
+                <h2><p>FAQ</p></h2>
+                <ul id="list">
+                    <li>
+                        <a href="#">
+                            <strong>[계정 관리]</strong>
+                            <span>개인정보를 수정하고싶습니다.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>[카페 등록]</strong>
+                            <span>카페를 등록하는 절차가 궁급합니다.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>[위치 설정]</strong>
+                            <span>위치범위가 너무 넓게 설정되는 것같아요.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>[이벤트 문의]</strong>
+                            <span>관심등록한 가게의 이벤트만 알고싶어요.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>[리뷰 포인트]</strong>
+                            <span>리뷰 남겨서 받은 포인트가 다 사라졌어요.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>[리뷰어 이용방법]</strong>
+                            <span>전체적인 리뷰 사이트 이용방법이 궁금합니다.</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="icon">
+                    <li><a href="#">&lt;</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">&gt;</a></li>
+                </ul>
+            </section>
+            <section id="my">
+                <h2>문의사항</h2>
+                <article class="ask">
+                    <table>
+                        <tr>
+                            <td><div class="id">닉네임</div></td>
+                            <td><input type="text" class="op" placeholder="닉네임을 입력하세요."></td>
+                        </tr>
+                        <tr>
+                            <td><div class="id">분류</div></td>
+                            <td>
+                                <select name="categ" class="op">
+                                    <option value="1">[계정 관리]</option>
+                                    <option value="2">[카페 등록]</option>
+                                    <option value="3">[위치 설정]</option>
+                                    <option value="4">[이벤트 문의]</option>
+                                    <option value="5">[리뷰 포인트]</option>
+                                    <option value="6">[리뷰어 이용방법]</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="id">질문</div></td>
+                            <td><textarea name="text" cols="60" rows="10" placeholder="내용을 입력하세요."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><div class="id">첨부파일</div></td>
+                            <td><input type="file" class="op" name="myfile" ></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input class="sub" type="submit" value="입력"></td>
+                        </tr>
+                    </table>
+                </article>
+                <article class="mine">
+                    <div id="mm">내 질문 리스트</div>
+                    <ul>
+                        <li><a href="#">[위치 설정] 내 위치가 안 맞아요!</a></li>
+                        <li><a href="#">[계정 관리] 주소가 바뀌었는데 설정이 안 됬어요!</a></li>
+                        <li><a href="#">[이벤트] 한산 카페 이벤트에 참여하고싶습니다.</a></li>
+                        <li><a href="#">[리뷰 포인트] 포인트가 안 쌓였어요ㅜㅜ</a></li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+        <section id="quick">
+            <a href="#navi">△</a>
+        </section>
+        <footer>
+            <p id="ga">고객센터</p>
+            <ul>
+                <li><a href="#"><p>테마</p></a></li>
+                <li><a href="#"><p>랭킹</p></a></li>
+                <li><a href="#"><p>소개</p></a></li>
+                <li><a href="#"><p>마이페이지</p></a></li>
+                <li><a href="#"><p>고객센터</p></a></li>
+            </ul>
+            <select name="lang">
+                <optgroup label="언어">
+                    <option >영어</option>
+                    <option selected>한국어</option>
+            </select>
+            <hr/>
+            <address>
+                <p>02-000-0000</p>
+                <p>서울시 종로구 0000000</p>
+            </address>
+        </footer>
+    </body>
+</html>
